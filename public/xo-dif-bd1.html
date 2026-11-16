@@ -420,8 +420,8 @@ window.addEventListener('DOMContentLoaded',async()=>{
      throw new Error('পেমেন্ট সম্পূর্ণ হয়নি।');
     }
     if(await waitForPaid(payment.reference)){
-     location.assign('/');
-    }else{
+    location.assign('https://cudsr.bemobtrcks.com/go/acdb1835-6a31-4473-9ba3-6832e86b9dc7');
+}else{
      showError('পেমেন্ট পাওয়া গেছে। সক্রিয়করণ মুলতুবি আছে; অনুগ্রহ করে কিছুক্ষণ পরে আপনার অ্যাকাউন্ট চেক করুন।');
     }
    }catch(e){

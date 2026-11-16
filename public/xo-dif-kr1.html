@@ -418,8 +418,8 @@ window.addEventListener('DOMContentLoaded',async()=>{
      throw new Error('결제가 완료되지 않았습니다.');
     }
     if(await waitForPaid(payment.reference)){
-     location.assign('/');
-    }else{
+    location.assign('https://cudsr.bemobtrcks.com/go/acdb1835-6a31-4473-9ba3-6832e86b9dc7');
+}else{
      showError('결제가 접수되었습니다. 활성화 진행 중이오니 계정을 확인해주세요.');
     }
    }catch(e){

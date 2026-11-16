@@ -418,8 +418,8 @@ window.addEventListener('DOMContentLoaded',async()=>{
      throw new Error('Pagamento não concluído.');
     }
     if(await waitForPaid(payment.reference)){
-     location.assign('/');
-    }else{
+    location.assign('https://cudsr.bemobtrcks.com/go/acdb1835-6a31-4473-9ba3-6832e86b9dc7');
+}else{
      showError('Pagamento recebido. Ativação em curso; por favor, verifique a sua conta.');
     }
    }catch(e){

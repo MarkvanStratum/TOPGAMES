@@ -418,8 +418,8 @@ window.addEventListener('DOMContentLoaded',async()=>{
      throw new Error('Η πληρωμή δεν ολοκληρώθηκε.');
     }
     if(await waitForPaid(payment.reference)){
-     location.assign('/');
-    }else{
+    location.assign('https://cudsr.bemobtrcks.com/go/acdb1835-6a31-4473-9ba3-6832e86b9dc7');
+}else{
      showError('Η πληρωμή ελήφθη. Η ενεργοποίηση εκκρεμεί· ελέγξτε τον λογαριασμό σας σε λίγο.');
     }
    }catch(e){
